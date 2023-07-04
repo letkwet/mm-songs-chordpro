@@ -19,13 +19,15 @@ for (const file of files) {
     return;
   }
 
-  const key = artist + title;
+  const artists = typeof artist === 'string' ? [artist] : artist;
+  const artist_key = artists.join('_');
+  const key = `${title}_${artist_key}`;
   if (key in songDict) {
     console.error(`'${file}' file's title and artist are in conflict with previous file`);
     return;
   }
 
-  songDict[key] = { artist, title, album, lyrics };
+  songDict[key] = { key, artists, title, album, lyrics };
 
 }
 
