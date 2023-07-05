@@ -6,7 +6,7 @@ const parser = new ChordSheetJS.ChordProParser();
 
 const files = globSync('./songs/**/*.cho');
 console.log("Creating import file for following songs");
-console.log(files);
+console.log(`Processing ${files.length} song files.`);
 
 const songDict = {};
 
