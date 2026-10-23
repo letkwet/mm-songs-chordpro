@@ -1,8 +1,11 @@
 {title: မင်းနဲ့နီးဖို့ (Acoustic)}
 {artist: Idiots}
 
-Intro - [C]|| [Fadd2]|| [G]|| [C]| [C/B]|
-[Am]|| [Fadd2] || [G]
+{define: Fadd2 base-fret 0 frets x x 3 2 1 3}
+{define: C/B base-fret 0 frets x 2 2 0 1 0}
+
+Intro - [C]-- [Fadd2]-- [G]-- [C]- [C/B]-
+[Am]-- [Fadd2] -- [G]
 
 {start_of_verse}
 [C]မင်းကိုတန်ဖိုး[Fadd2]ထားချင်တယ် ငါ့[G]အသက်နဲ့ ရင်းပြီး[C]ကွယ်[C/B] [Am]ဖြစ်ပျက်ခဲ့တာ [Fadd2]အားလုံးမေ့ပြစ်[G]ခဲ့ 
@@ -34,9 +37,9 @@ Intro - [C]|| [Fadd2]|| [G]|| [C]| [C/B]|
 နင်[G]ကျေနပ်ရဲ့[Dm7]လား ပျော်နိုင်မှလိုက်[Fm]ပါ [G]မင်းသဘောလို[C]တယ်
  {end_of_chorus}
 
-Solo: [C]|||| [G]|||| [Am]|||| [Ab]|||||
-[Cm]|||| [Bdim]|||| [Bb7]||||
-[Ab]|||| [G]||||
+Solo: [C]---- [G]---- [Am]---- [Ab]-----
+[Cm]---- [Bdim]---- [Bb7]----
+[Ab]---- [G]----
 
 {start_of_chorus}
 ငါဒီမှာ မင်းနဲ့နီးဖို့ ကြိုးစားနေ[G]တယ်
